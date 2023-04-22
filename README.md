@@ -71,3 +71,16 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+
+In Nest.js, pipes are used to perform data transformation and validation of incoming request data before it's processed by the route handler. Pipes allow you to define a set of rules and conditions that incoming data must meet before it's allowed to be processed by your application.
+
+Some common use cases for pipes in Nest.js are:
+
+Validation: Pipes can be used to validate incoming request data, such as ensuring that a required field is present or that a value meets certain criteria (e.g., minimum/maximum length or specific format). This helps to prevent invalid or incorrect data from being processed by your application.
+
+Transformation: Pipes can also be used to transform incoming request data to a desired format, such as converting string inputs to numeric values or modifying the structure of the incoming data to match the format expected by your application.
+
+Authorization: Pipes can be used to check whether the incoming request is authorized to access the resource. For example, you can use a pipe to check if the user sending the request is authenticated and authorized to access the requested resource.
+
+Using pipes in Nest.js provides a powerful way to implement data validation, transformation, and authorization. Pipes help to keep your code clean, maintainable, and reusable, by separating concerns and promoting modularity.
